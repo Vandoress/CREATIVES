@@ -1,0 +1,29 @@
+.footer {
+	min-height: 116px;
+	background-color: #222222;
+	&__copy {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+		margin: 39px 0 0 0;
+		@media (max-width: 575.98px){
+			flex-wrap:	wrap;
+			text-align: center;
+		}
+	}
+	&__author {
+		font-family: 'Roboto';
+		font-size: 13px;
+		letter-spacing: 0.02em;
+		color: #ffffff;
+		@media (max-width: 575.98px){
+			flex: 0 1 100%;
+			margin: 0 0 10px 0;
+		}
+	}
+	&__img {
+		@media (max-width: 575.98px){
+			flex: 0 1 100%;
+		}
+	}
+}
